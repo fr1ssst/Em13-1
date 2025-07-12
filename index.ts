@@ -12,7 +12,7 @@ const login: Admin = {
     pass: 12345
 };
 
-const userPrint = prompt("1) Ваш логін: ")
+const userPrint = prompt("1) Ваш логін:: ")
 const passPrint = Number(prompt("Ваш пароль: "))
 
 if(userPrint === login.username && passPrint === login.pass){
